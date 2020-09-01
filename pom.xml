@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bcopstein</groupId> <!-- Alterar -->
+    <groupId>com.fdm</groupId> <!-- Alterar -->
     <artifactId>App</artifactId> <!-- Alterar -->
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>MegaSena</name> <!-- Alterar -->
+    <name>TesteMaven</name> <!-- Alterar -->
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -41,7 +41,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>MegaSena</finalName>
+        <finalName>TesteMaven</finalName>
         <pluginManagement>
             <plugins>
                 <!-- Define o compilador de plugins -->
@@ -66,7 +66,7 @@
                             <configuration>
                                 <transformers>
                                     <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                        <main-class>com.bcopstein.App</main-class>
+                                        <main-class>com.fdm.App</main-class>
                                     </transformer>
                                 </transformers>
                             </configuration>
@@ -79,7 +79,7 @@
                     <artifactId>exec-maven-plugin</artifactId>
                     <version>3.0.0</version>
                     <configuration>
-                        <mainClass>com.bcopstein.App</mainClass>
+                        <mainClass>com.fdm.App</mainClass>
                     </configuration>
                 </plugin>
                 <!-- Plugin para gerar relatório de testes -->

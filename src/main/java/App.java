@@ -1,3 +1,5 @@
+package com.fdm;
+
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -37,6 +39,7 @@ public class App {
                 System.out.println("Cor : " + cor);
                 System.out.println("Categoria : " + categoria);
                 System.out.println("---------------\n\n");
+                System.out.println("Miguel colocou o ultimo carro");
             }
         }
     }
