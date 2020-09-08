@@ -32,7 +32,7 @@ public class App {
                 String cor = csvRecord.get(2);
                 String categoria = csvRecord.get(3);
 
-                System.out.println("Record No - " + csvRecord.getRecordNumber());
+                System.out.println("Número do veículo - " + csvRecord.getRecordNumber()); //print alterado
                 System.out.println("---------------");
                 System.out.println("Placa : " + placa);
                 System.out.println("Marca : " + marca);
